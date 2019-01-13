@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20325f46e65e1d3418377cd356ded3bc, type: 3}
+  m_Name: A1.Start
+  m_EditorClassIdentifier: 
+  storyText: "The year is 2050 in LA. Your a merc on a job contracted to steal information
+    from the most powerful company in the world. Evil Tech Company.\r\n\r\nWhat do
+    you do?\r\n1.\tRun the front door of Evil Tech Company.\r\n2.\tSneak around to
+    the back of Evil Tech Company building."
+  nextStates:
+  - {fileID: 11400000, guid: 02b234642d6fa004d82db34d221b30ea, type: 2}
+  - {fileID: 11400000, guid: f3589ea35bfb3394ca0c8afb96c849a4, type: 2}

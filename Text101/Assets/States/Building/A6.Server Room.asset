@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20325f46e65e1d3418377cd356ded3bc, type: 3}
+  m_Name: A6.Server Room
+  m_EditorClassIdentifier: 
+  storyText: "You make your way to a/c vent and crawl your way to the server room.
+    You drop down to the server room and hack into the system.  \r\n\r\nWhat do you
+    want to do?\r\n\r\n1. Delete all the data.\r\n2. Copy all the data."
+  nextStates:
+  - {fileID: 11400000, guid: 3d2ff5a52ba26ee418cd161c9e80bd68, type: 2}
+  - {fileID: 11400000, guid: 49ae92465f1e0df48b24383bf4fd8a22, type: 2}

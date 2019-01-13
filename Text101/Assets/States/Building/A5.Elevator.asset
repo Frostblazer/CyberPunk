@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20325f46e65e1d3418377cd356ded3bc, type: 3}
+  m_Name: A5.Elevator
+  m_EditorClassIdentifier: 
+  storyText: "You make it to the elevators. You press the elevator button and the
+    elevator door opens. You select the top floor and the elevator rises to the top
+    floor. \r\n\r\nWhat do you want to do?\r\n\r\n1. Wait for the doors to open and
+    walk threw.\r\n2. Press the emergency stop button and go into the elevator shaft."
+  nextStates:
+  - {fileID: 11400000, guid: 456f3ea79f239074fbdae09fc059ac1e, type: 2}
+  - {fileID: 11400000, guid: e89260a77fe901b45b50181ab12d6078, type: 2}

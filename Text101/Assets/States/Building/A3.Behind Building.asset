@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20325f46e65e1d3418377cd356ded3bc, type: 3}
+  m_Name: A3.Behind Building
+  m_EditorClassIdentifier: 
+  storyText: "You make your way behind the building. You see a back door to the building.\r\n\r\nWhat
+    do you want to do?\r\n\r\n1. Sneak your way to the back door and go in the building.\r\n2.
+    Go back to the front of the building."
+  nextStates:
+  - {fileID: 11400000, guid: 71d64f425bdd6624193f5a740a4ad715, type: 2}
+  - {fileID: 11400000, guid: 50e9d43022dcacf46b5a1ebdfa8b6598, type: 2}
